@@ -1,4 +1,5 @@
 import {Breadcrumb, Layout} from "antd";
+import Card from '../../components/Card/Card';
 
 const {Content} = Layout
 
@@ -20,7 +21,7 @@ const content = (props) => {
                     minHeight: 280,
                 }}
             >
-                Content
+                <Card/>
             </Content>
 
         </div>
